@@ -1,0 +1,20 @@
+spring:
+  thymeleaf:
+    prefix: classpath:/templates/
+    suffix: .html 
+  application:
+    name: jwt
+client:
+  jwtSecret:
+    one: QTjF_W8ftUTte4jFY1DmdmbelTwOYqyZljL7XjC4Z6w
+    two: 2Y0dGSXzI4tdu8UEB3ohZ2-w9MM6EKecQ96-ar2kIgs
+  id:
+    one: 7sQYF5_0LD8UmvjesNMzoQ
+    two: fYdfrg-0_UMp6apJNC5Uiw
+  secret:
+    one: gIeJeMzcf5J8RpZbd9MXhlsJ39Y8XSQKeJFiPmBQzwM
+    two: AtJ2WaWBmQUEuYumRhmnkKtc7TSnWM6wzN08H8P/VEc=
+  audClaims: aps,bwd
+jwt:
+  security:
+    enabled: false
